@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: white;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.main-style {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+header .head-element {
+    background-color: red;
+    
+}
+
+header .navigation-side {
+    background-color: aqua;
+}
+
+
+main .content-side {
+    width: 65%;
+}
+
+main .content-side .content {
+    background-color: yellowgreen;
+}
+
+main .content-side .article {
+    background-color: yellow;
+}
+
+main .sidebar {
+    width: 35%;
+    height: 150px;
+    background-color: pink;
+    vertical-align: top;
+}
+
+
+footer div {
+    background-color: gray;
+}
+
+
+
+

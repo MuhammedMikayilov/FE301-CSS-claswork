@@ -1,0 +1,84 @@
+/* div p {
+    background-color: yellow;
+    color: red;
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+div:hover p {
+    color: blue;
+    background-color: green;
+    font-size: 15px;
+
+} */
+/* 
+p {
+    color: red;
+} */
+
+/* p:first-child {
+    color: red;
+} */
+
+
+/* p .test:first-child {
+    color: red;
+} */
+
+/* p:last-child {
+    color: red;
+} */
+
+
+/* div {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    color: white;
+    overflow: hidden;
+    padding: 40px;
+} */
+/* 
+p {
+    border-bottom: 2px solid green;
+    position: relative;
+} */
+/* 
+p::after {
+    content: "";
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100px;
+    height: 5px;
+    background-color: green;
+} */
+
+
+/* li:nth-child(odd) {
+    color: red;
+} */
+
+/* 
+li {
+    transition: all .8s;
+}
+
+li:hover {
+    color: red;
+} */
+
+
+div {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transition: all 2s;
+}
+
+div:hover {
+    transform: translate(20px, 40px);
+}
